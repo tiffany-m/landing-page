@@ -110,3 +110,22 @@ a:active {
 .quote-signature {
     align-self: flex-end;
 }
+
+/* SIGN UP */
+.signup {
+    background-color: #3882F6;
+    margin: 40px 100px;
+    padding: 30px;
+    border-radius: 7px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.signup-button {
+    background-color: #3882F6;
+    color: white;
+    padding: 0px 20px;
+    border-radius: 7px;
+    border: 1px white solid;
+}
