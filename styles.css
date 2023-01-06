@@ -1,17 +1,18 @@
-section {
-    max-width: 900px;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-/* HEADER */
+/* HEADER ----------------- */
 .header {
     background-color: #1F2937;
-    padding: 0 100px;
+    padding: 0px 100px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 10px 0 40px 0;
+    margin: 0px 0 40px 0;
 }
 
 ul {
@@ -20,37 +21,38 @@ ul {
 
 ul.right-links {
     display: flex;
+    gap: 20px;
     color: white;
-    gap: 20px
 }
 
 .header-image {
     width: 300px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.shiba-logo {
+    width: 100px;
+    margin-top: 10px;
 }
 
 .header-secondary-text, .link-text {
-    font-size: 18px;
     color: #E5E7EB;
+    font-size: 18px;
 }
 
 a:link,
 a:visited,
 a:hover,
 a:active {
-    text-decoration: none;
     color: #E5E7EB;
-}
-
-.header-logo-text {
-    font-size: 24px;
-    color: #F9FAF8;
-    margin-top: 10px;
+    text-decoration: none;
 }
 
 .header-main-text {
+    color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
-    color: #F9FAF8;
     line-height: 1;
     padding-bottom: 7px;
 }
@@ -58,88 +60,93 @@ a:active {
 .header-button {
     background-color: #3882F6;
     color: white;
-    padding: 5px 20px;
-    border-radius: 7px;
-    border: none;
     margin-top: 7px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
 }
 
 .header-content {
     display: flex;
+    align-items: center;
+    gap: 30px;
     padding-bottom: 40px;
-    gap: 20px
 }
 
-/* INFO */
+/* INFO ------------------ */
 .info {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 40px 100px;
+    margin: 40px 100px;
 }
 
 .cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    text-align: center;
 }
 
 .info-image {
-    width: 100px;
-    border-radius: 7px;
-    border: 4px solid #3882F6;
+    width: 150px;
+
+    border: 2px solid #1F2937;
+    border-radius: 5px;
 }
 
 .info-main-text {
+    color: #1F2937;
     font-size: 36px;
     font-weight: 800;
-    color: #1F2937;
     align-self: center;
     margin-bottom: 40px;
 }
 
-/* QUOTE */
+/* QUOTE --------------------- */
 
 .quote {
     background-color: #E5E7EB;
-    padding: 60px 100px;
     display: flex;
     flex-direction: column;
+    padding: 60px 100px;
 }
 
 .quote-text {
+    color: #1F2937;
     font-size: 36px;
-    color: #1F2937
 }
 
 .quote-signature {
     align-self: flex-end;
 }
 
-/* SIGN UP */
+/* SIGN UP ------------------- */
 .signup {
     background-color: #3882F6;
-    margin: 40px 100px;
-    padding: 30px;
-    border-radius: 7px;
-    color: white;
+    color: white;    
     display: flex;
     justify-content: space-around;
+    margin: 40px 100px;
+    padding: 30px;
+    border-radius: 5px;
 }
 
 .signup-button {
     background-color: #3882F6;
     color: white;
-    padding: 0px 20px;
-    border-radius: 7px;
+    align-self: center;
+    padding: 5px 20px;
     border: 1px white solid;
+    border-radius: 5px;
 }
 
-/* FOOTER */
+/* FOOTER -------------------- */
 .footer {
     background-color: #1F2937;
     color: white;
-    padding: 20px;
+    font-size: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
