@@ -1,3 +1,7 @@
+section {
+    max-width: 900px;
+}
+
 /* HEADER */
 .header {
     background-color: #1F2937;
