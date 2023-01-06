@@ -92,3 +92,21 @@ a:active {
     align-self: center;
     margin-bottom: 40px;
 }
+
+/* QUOTE */
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 60px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937
+}
+
+.quote-signature {
+    align-self: flex-end;
+}
