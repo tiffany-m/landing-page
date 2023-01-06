@@ -129,3 +129,13 @@ a:active {
     border-radius: 7px;
     border: 1px white solid;
 }
+
+/* FOOTER */
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
